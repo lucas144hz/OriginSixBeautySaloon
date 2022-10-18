@@ -43,8 +43,12 @@ const swiper = new Swiper('.swiper-container', {
     767: {
       slidesPerView: 2,
       setWrapperSize: true
-    }
-  }
+    },
+    breakpoints:{
+    0:{slidesPerView: 1,},
+      520:{slidesPerView: 1},
+      950:{slidesPerView: 2},
+    },
 })
 
 /*ScrollReveal: Mostrar elementos quando der scroll na página*/
